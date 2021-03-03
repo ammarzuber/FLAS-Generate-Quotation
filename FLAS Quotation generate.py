@@ -44,7 +44,9 @@ def Quotation_generate(name,NRIC1,NRIC2,NRIC3,phone_num,email,address,postcode,n
         firefox_profile = webdriver.FirefoxProfile()
         firefox_profile.set_preference("browser.privatebrowsing.autostart", True)
 
-        driver = webdriver.Firefox(executable_path = 'C:\Windows\geckodriver.exe',firefox_profile=firefox_profile)
+        driver = webdriver.Firefox(executable_path = 'C:\Windows\geckodriver.exe',firefox_profile=firefox_profile)  # Geckodriver. redirect it on where you put the driver
+
+
 
         
 
